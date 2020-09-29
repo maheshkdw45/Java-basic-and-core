@@ -1,0 +1,25 @@
+Lambda expression:
+
+The Lambda expression is used to provide the implementation of an interface which has functional interface. It saves a lot of code. In case of lambda expression, we don't need to define the method again for providing the implementation. Here, we just write the implementation code.
+
+Java lambda expression is treated as a function, so compiler does not create .class file.
+
+Why use Lambda Expression
+To provide the implementation of Functional interface.
+Less coding.
+
+Syntax: 
+(argument-list) -> {body}  
+
+arg: can be empty 
+arrow-token: it is necessary to use the Lambda expression.
+body: It is also necessary because it will return the result or compute the response.
+eg: -> {a+b};
+
+list.forEach((data) -> sop(data)); // Iterating the list elements using forEach with Lambda Expression.
+
+
+
+
+ 
+

@@ -1,0 +1,13 @@
+Method references − Referencing functions by their names instead of invoking them directly. Using functions as parameter.
+
+If you don't want to provide the new functionality of that method and you want to used to existing functionality, then refer that method in new method by using the Method reference. 
+
+There are 3 type of method reference:
+1) Static method reference
+2) Instance method reference
+3) contractor reference
+
+We have to used :: this operator to refer method. 
+
+
+
