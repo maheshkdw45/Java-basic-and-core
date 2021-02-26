@@ -9,6 +9,6 @@ public class LambdaDemo {
 
         List<String> list= Arrays.asList("a","b","c","d","e","f","g");
 
-        list.forEach(s -> System.out.println(s));
+        list.forEach(System.out::println);
     }
 }
