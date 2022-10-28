@@ -1,6 +1,7 @@
 package com.mahesh.modal;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class GetModalData {
@@ -16,6 +17,32 @@ public class GetModalData {
         Customer customer5 = new Customer("Vaibhav Sharma", "9898976756", "abc@gmail.com", 25, "Delhi");
         Customer customer6 = new Customer("Amit Arora", "45454565767", "abc@gmail.com", 26, "Bangalore");
         Customer customer7 = new Customer("Dhirendra Singh", "3434334565", "abc@gmail.com", 29, "Gurgaon");
+        Customer customer8 = new Customer("Ranjit Singh", "5655656", "abc@gmail.com", 22, "Bangalore");
+        Customer customer9 = new Customer("Nitin Singh", "454545667", "abc@gmail.com", 35, "Gurgaon");
+        customers.add(customer1);
+        customers.add(customer2);
+        customers.add(customer3);
+        customers.add(customer4);
+        customers.add(customer5);
+        customers.add(customer6);
+        customers.add(customer7);
+        customers.add(customer8);
+        customers.add(customer9);
+
+
+        return customers;
+    }
+    public static List<Customer> getCustomerDetailsWithMultiplePhone() {
+
+        List<Customer> customers = new ArrayList<>();
+
+        Customer customer1 = new Customer("Mahesh Kumar", Arrays.asList("884594584","348349343"), "abc@gmail.com", 25, "Gurgaon");
+        Customer customer2 = new Customer("Pankaj Singh", "4547787", "abc@gmail.com", 32, "Gurgaon");
+        Customer customer3 = new Customer("Ram Lal", Arrays.asList("88455594584","4565657765"), "abc@gmail.com", 45, "Noida");
+        Customer customer4 = new Customer("Mohan Ram", Arrays.asList("343454656545","8887656654"), "abc@gmail.com", 28, "Delhi");
+        Customer customer5 = new Customer("Vaibhav Sharma", Arrays.asList("5567678555","3444333"), "abc@gmail.com", 25, "Delhi");
+        Customer customer6 = new Customer("Amit Arora", "45454565767", "abc@gmail.com", 26, "Bangalore");
+        Customer customer7 = new Customer("Dhirendra Singh", Arrays.asList("667644343","898665556"), "abc@gmail.com", 29, "Gurgaon");
         Customer customer8 = new Customer("Ranjit Singh", "5655656", "abc@gmail.com", 22, "Bangalore");
         Customer customer9 = new Customer("Nitin Singh", "454545667", "abc@gmail.com", 35, "Gurgaon");
         customers.add(customer1);
