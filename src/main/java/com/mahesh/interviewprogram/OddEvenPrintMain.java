@@ -25,6 +25,7 @@ public class OddEvenPrintMain {
                     // Exception handle
                     try {
                         wait();
+                        Thread.sleep(1000);
                     }
                     catch (
                             InterruptedException e) {
@@ -33,7 +34,7 @@ public class OddEvenPrintMain {
                 }
 
                 // Print the number
-                System.out.print(counter + " ");
+                System.out.println("Printing odd number "+  counter + " ");
 
                 // Increment counter
                 counter++;
@@ -58,6 +59,7 @@ public class OddEvenPrintMain {
                     // Exception handle
                     try {
                         wait();
+                        Thread.sleep(1000);
                     }
                     catch (
                             InterruptedException e) {
@@ -66,7 +68,7 @@ public class OddEvenPrintMain {
                 }
 
                 // Print the number
-                System.out.print(
+                System.out.println("Printing even number :: "+
                         counter + " ");
 
                 // Increment counter

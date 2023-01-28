@@ -51,7 +51,7 @@ public class StreamVariousOperations {
         System.out.println("Partition by operation :: " + partitionByOperation);
 
         List<Customer> customerDetailsWithMultiplePhone = GetModalData.getCustomerDetailsWithMultiplePhone();
-//        Flat map operation, It's combination of a map and a flat operation i.e, it first applies map function and than flattens the result.
+//        Flat map operation, It's combination of a map and a flat operation i.e, it first applies map function and then flattens the result.
         List<String> flatMapOperation = customerDetailsWithMultiplePhone.stream().flatMap(customer -> {
 
             if (customer.getMobileNumbers() != null) {

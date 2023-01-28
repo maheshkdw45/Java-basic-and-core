@@ -9,9 +9,9 @@ import java.util.stream.Collectors;
 public class DisticntElementsDemo {
     public static void main(String[] args) {
         int[] nums = {5,2,7,2,4,7,8,2,3};
-        String[] numsArr = {"5","2","7","2","4","7","8","2","3"};
+        List<String> numsArr = Arrays.asList("5","2","7","2","4","7","8","2","3");
 
-        List<String> stringList = Arrays.stream(numsArr).distinct().collect(Collectors.toList());
+        List<String> stringList = numsArr.stream().distinct().collect(Collectors.toList());
         System.out.println("String Distinct list :"+stringList);
 
         List<Integer> integerList = Arrays.stream(nums).distinct().boxed().collect(Collectors.toList());
