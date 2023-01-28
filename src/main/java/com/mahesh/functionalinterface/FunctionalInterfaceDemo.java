@@ -11,8 +11,13 @@ public class FunctionalInterfaceDemo {
 interface FunctionalInterface{
 
     public  void dummy();
+//    public  void dummy1();
 
     default  public void dummyDefault(){
         System.out.println("This default dummy testing ");
+    }
+
+    default  public void dummyDefault1(){
+        System.out.println("This default dummy testing-1 ");
     }
 }
