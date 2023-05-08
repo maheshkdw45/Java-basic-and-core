@@ -1,6 +1,4 @@
-package com.mahesh.stream;
-
-import com.mahesh.data.StudentDataBase;
+package com.mahesh.streams;
 
 import java.util.OptionalDouble;
 import java.util.OptionalInt;

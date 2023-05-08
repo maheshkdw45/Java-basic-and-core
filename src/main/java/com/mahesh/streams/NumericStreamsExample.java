@@ -1,4 +1,4 @@
-package com.mahesh.stream;
+package com.mahesh.streams;
 
 import java.util.Arrays;
 import java.util.List;

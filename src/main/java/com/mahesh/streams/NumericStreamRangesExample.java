@@ -1,6 +1,5 @@
-package com.mahesh.stream;
+package com.mahesh.streams;
 
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 

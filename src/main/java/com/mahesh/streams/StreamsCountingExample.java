@@ -1,4 +1,4 @@
-package com.mahesh.streams_terminal;
+package com.mahesh.streams;
 
 import com.mahesh.data.StudentDataBase;
 

@@ -1,4 +1,4 @@
-package com.mahesh.stream;
+package com.mahesh.streams;
 
 import com.mahesh.modal.Customer;
 import com.mahesh.modal.GetModalData;
