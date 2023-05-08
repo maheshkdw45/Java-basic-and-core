@@ -1,4 +1,4 @@
-package com.mahesh.numericstreams;
+package com.mahesh.stream;
 
 import java.util.List;
 import java.util.stream.IntStream;

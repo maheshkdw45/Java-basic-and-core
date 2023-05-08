@@ -1,4 +1,4 @@
-package com.mahesh.streams;
+package com.mahesh.stream;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
