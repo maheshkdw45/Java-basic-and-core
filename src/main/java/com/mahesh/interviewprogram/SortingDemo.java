@@ -18,6 +18,9 @@ public class SortingDemo {
 //        Sorting class should be implement the Comparable interface.
 //        Comparable interface is not mandatory to implement, if we will writing the logic inside the sorted method.
 //        listOfStudents.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()).forEach(System.out::println);
+        Student student1 = listOfStudents.stream().filter(student -> "Mahesh".equals(student.getName())).findFirst().get();
+
+        System.out.println("Filter ::: "+student1);
 
     }
 
